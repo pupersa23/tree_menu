@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tree-menu"
+version = "0.1.0"
+description = "Добавление древовидного меню на любую страницу сайт через админку Django с помощью template tag"
+authors = ["Владимир Рязанов <ryazanov745@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tree_menu"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.7"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.1"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
