@@ -9,6 +9,9 @@ packages = [{include = "tree_menu"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^4.1.7"
+python-dotenv = "^1.0.0"
+django-mptt = "^0.14.0"
+django-mptt-admin = "^2.4.1"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.2.1"
